@@ -1,11 +1,13 @@
 Package: whSample
 Type: Package
-Title: What the Package Does (Title Case)
+Title: R Tools for Creating Data Samples in Excel
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Paul West
+Maintainer: Paul West <fp8049@gmail.com>
+Description: Reads an Excel or CSV dataset, estimates a minimum sample size,
+    and writes a sample dataset to Excel. Output choices are a Simple Random Sample,
+    Stratified Random Sample, or stratified sample with each stratum in a different
+    workbook tab.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
